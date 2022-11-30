@@ -1,0 +1,21 @@
+{
+  "name": "@arkhamcookie/nodejs-template",
+  "description": "A basic nodejs template.",
+  "version": "1.0.0",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkhamCookie/nodejs-template"
+  },
+  "keywords": [],
+  "author": {
+    "name": "ArkhamCookie",
+    "email": "npm@mail.theuntitledproject.dev",
+    "url": "https://theuntitledproject.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkhamCookie/nodejs-template/issues"
+  },
+  "homepage": "https://github.com/ArkhamCookie/nodejs-template"
+}
