@@ -1,25 +1,37 @@
 {
   "name": "@arkhamcookie/nodejs-template",
-  "description": "A basic nodejs template.",
   "version": "1.0.0",
-  "main": "index.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArkhamCookie/nodejs-template"
-  },
+  "description": "A basic nodejs template.",
   "keywords": [],
+  "homepage": "https://github.com/ArkhamCookie/nodejs-template",
+  "bugs": {
+    "url": "https://github.com/ArkhamCookie/nodejs-template/issues",
+    "email": "bugs@mail.theuntitledproject.dev"
+  },
+  "license": "MIT",
   "author": {
     "name": "ArkhamCookie",
     "email": "npm@mail.theuntitledproject.dev",
     "url": "https://theuntitledproject.dev"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ArkhamCookie/nodejs-template/issues"
+  "main": "index.json",
+  "bin": {
+    "template": "./bin/template"
   },
-  "homepage": "https://github.com/ArkhamCookie/nodejs-template",
+  "man": [
+    "./docs/man/template.1",
+    "./docs/man/lint.1"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkhamCookie/nodejs-template"
+  },
+  "config": {},
+  "scripts": {
+  	"lint": "eslint ./*.js"
+  },
   "devDependencies": {
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
