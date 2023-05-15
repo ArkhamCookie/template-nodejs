@@ -27,6 +27,7 @@
     "url": "git+https://github.com/ArkhamCookie/nodejs-template"
   },
   "config": {},
+  "startup": "cp ~/.eslintrc.json .",
   "scripts": {
   	"lint": "eslint ./*.js"
   },
