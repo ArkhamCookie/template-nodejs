@@ -28,6 +28,7 @@
   },
   "config": {},
   "scripts": {
+	  "startup": "cp ~/.eslintrc.json .",
   	"lint": "eslint ./*.js"
   },
   "devDependencies": {
