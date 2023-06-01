@@ -14,7 +14,7 @@
     "email": "npm@mail.theuntitledproject.dev",
     "url": "https://theuntitledproject.dev"
   },
-  "main": "index.json",
+  "main": "index.js",
   "bin": {
     "template": "./bin/template"
   },
@@ -29,11 +29,11 @@
   "config": {},
   "startup": "cp ~/.eslintrc.json .",
   "scripts": {
-  	"lint": "eslint ./*.js"
+    "lint": "eslint ./*.js"
   },
   "devDependencies": {
-    "eslint": "^8.40.0",
-    "eslint-config-standard": "^17.0.0",
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1"
