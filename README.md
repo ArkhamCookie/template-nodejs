@@ -4,4 +4,4 @@ My basic template for nodejs projects.  It includes some (npm) scripts for setti
 
 ## Scripts
 
-lint - use eslint on all files ending in '.js'
+lint - use eslint on all files
