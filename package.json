@@ -1,6 +1,8 @@
 {
   "name": "@arkhamcookie/nodejs-template",
   "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
   "description": "A basic nodejs template.",
   "keywords": [],
   "homepage": "https://github.com/ArkhamCookie/nodejs-template",
@@ -14,25 +16,18 @@
     "email": "npm@mail.theuntitledproject.dev",
     "url": "https://theuntitledproject.dev"
   },
-  "main": "index.js",
-  "bin": {
-    "template": "./bin/template"
-  },
-  "man": [
-    "./docs/man/template.1",
-    "./docs/man/lint.1"
-  ],
+  "bin": {},
+  "man": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArkhamCookie/nodejs-template"
   },
   "config": {},
-  "startup": "cp ~/.eslintrc.json .",
   "scripts": {
-    "lint": "eslint ./*.js"
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^8.41.0",
+    "eslint": "^8.44.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
