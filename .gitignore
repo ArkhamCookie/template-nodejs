@@ -1,24 +1,25 @@
-# Arkham's nodejs .gitignore
-# https://github.com/ArkhamCookie/template-nodejs
+# Arkham's Deno .gitignore
+# https://github.com/ArkhamCookie/template-deno
 
 # secrets
 .env*
 !.env.example
+!.env.test*
 
-## package mangers
+# package manager
 node_modules/
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
-yarn/*
+yarn/
+deno.lock
 
 # cache
 .cache
-.temp
-.eslintcache
+.trash
+.DS_Store
 
-# build
-out/
-
-# configs
+# conifgs
 .vscode/
+.idea/
+.vim
